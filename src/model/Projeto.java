@@ -14,7 +14,7 @@ public class Projeto  implements Serializable, GeradorID{
     private String pass;
     
     
-    public Projeto(int id, String nome, int prioridade, int dificuldade, LocalDate data_inicio, LocalDate data_fim, String status, String pass) {
+    public Projeto() {
         
         this.id = GeradorID.gerarID(); 
         this.nome = nome;
@@ -25,6 +25,8 @@ public class Projeto  implements Serializable, GeradorID{
         this.status = status;
         this.pass = pass;
     }
+
+
 
     public String getId() {
         return id;

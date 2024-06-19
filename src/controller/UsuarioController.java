@@ -6,5 +6,6 @@ import model.GeradorID;
 
 public class UsuarioController {
     
+    
 
 }
